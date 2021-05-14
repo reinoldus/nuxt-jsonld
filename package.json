@@ -16,14 +16,6 @@
     "jsonld"
   ],
   "scripts": {
-    "test": "jest",
-    "test:ci": "jest --coverage && codecov",
-    "prebuild": "rimraf lib",
-    "build": "tsc -p .",
-    "preversion": "npm run build",
-    "release": "semantic-release",
-    "lint": "eslint --ext .ts,.js .",
-    "lint:fix": "eslint --ext .ts,.js --fix ."
   },
   "files": [
     "lib"
