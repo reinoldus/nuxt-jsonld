@@ -23,8 +23,7 @@
     "preversion": "npm run build",
     "release": "semantic-release",
     "lint": "eslint --ext .ts,.js .",
-    "lint:fix": "eslint --ext .ts,.js --fix .",
-    "postinstall": "tsc -p ."
+    "lint:fix": "eslint --ext .ts,.js --fix ."
   },
   "files": [
     "lib"
